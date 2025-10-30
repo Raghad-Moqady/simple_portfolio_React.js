@@ -1,0 +1,11 @@
+.imgBox{
+    background-color:  rgba(44, 62, 80, 0.153);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}

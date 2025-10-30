@@ -4,7 +4,7 @@ function Title({title}){
 
     return(
         <>
-        <h2 className={`${style.title}my-3`}>{title}</h2>
+        <h2 className={`${style.title} my-5 text-center`}>{title}</h2>
         </>
     )
 }
