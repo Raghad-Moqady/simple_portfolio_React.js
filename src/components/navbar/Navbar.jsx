@@ -4,7 +4,7 @@ function Navbar(){
 
     return(
         <>
-         <div className={`${style.navbar} text-white py-4`}>
+         <nav className={`${style.navbar} text-white py-4`}>
          <div className="container">
             <div className="d-flex justify-content-between align-items-center">
                 <div className='fw-bold fs-3' >Raghad Moqady</div>
@@ -17,7 +17,7 @@ function Navbar(){
                 </div>
             </div>
          </div>
-         </div>
+         </nav>
         </>
     )
 }
