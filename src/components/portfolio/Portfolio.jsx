@@ -19,8 +19,8 @@ function Portfolio(){
      
     return(
         <>
-        <div className=' mb-5 py-3'>
-           <Title title="Portfolio"/>
+        <section className=' mb-5 py-3'>
+         <Title title="Portfolio"/>
 
          <div className='container '>
             <div className="row row-gap-3">
@@ -33,7 +33,7 @@ function Portfolio(){
                 )}
             </div>
          </div>
-        </div>
+        </section>
         
         </>
     )

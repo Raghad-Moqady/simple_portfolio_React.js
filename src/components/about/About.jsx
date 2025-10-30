@@ -5,7 +5,7 @@ function About(){
 
     return(
         <>
-          <div className={`${style.about} mb-5 py-4`}>
+          <section className={`${style.about} mb-5 py-4`}>
                  <div className={`container  text-center`}>
                      {<Title title="About"/>}
                      <div className='w-50 m-auto fs-5'>
@@ -13,7 +13,7 @@ function About(){
                      </div>
                      <button className='btn btn-light mt-4 mb-3 px-3 py-2 rounded-5 '>Download My CV</button>
                  </div>
-          </div>
+          </section>
         </>
     )
 }
