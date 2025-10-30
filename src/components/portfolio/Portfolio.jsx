@@ -19,9 +19,10 @@ function Portfolio(){
      
     return(
         <>
-         <Title title="Portfolio"/>
+        <div className=' mb-5 py-3'>
+           <Title title="Portfolio"/>
 
-         <div className='container mb-5'>
+         <div className='container '>
             <div className="row row-gap-3">
                 {imgs.map(src=>
                 <div className="col-md-3 ">
@@ -32,6 +33,8 @@ function Portfolio(){
                 )}
             </div>
          </div>
+        </div>
+        
         </>
     )
 }
