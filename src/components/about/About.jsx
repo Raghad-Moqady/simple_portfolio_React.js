@@ -5,7 +5,7 @@ function About(){
 
     return(
         <>
-          <section className={`${style.about} mb-5 py-4`}>
+          <section className={`${style.about}   py-4`}>
                  <div className={`container  text-center`}>
                      {<Title title="About"/>}
                      <div className='w-50 m-auto fs-5'>

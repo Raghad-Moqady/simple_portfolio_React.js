@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import style from './Navbar.module.css'
 
 function Navbar(){
@@ -10,9 +11,18 @@ function Navbar(){
                 <div className='fw-bold fs-3' >Raghad Moqady</div>
                 <div>
                     <ul className='d-flex m-0 p-0 fs-5'>
-                        <li className='px-4'>Portfolio</li>
-                        <li className='px-4'>About</li>
-                        <li className='px-4'>Contact</li>
+                        <li className='px-4'>
+                            <Link to={'/'} className={`${style.navLinks}`}>Home</Link>
+                         </li>
+                        <li className='px-4'>
+                            <Link to={'/portfolio'} className={`${style.navLinks}`}>Portfolio</Link>
+                         </li>
+                        <li className='px-4'>
+                             <Link to={'/about'} className={`${style.navLinks}`}>About</Link>
+                        </li>
+                        <li className='px-4'>
+                             <Link to={'/contact'} className={`${style.navLinks}`}>Contact</Link>
+                        </li>
                     </ul>
                 </div>
             </div>

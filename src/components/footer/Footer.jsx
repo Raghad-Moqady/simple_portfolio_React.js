@@ -19,13 +19,13 @@ function Footer(){
                                 <i className="fa-brands fa-facebook-f"></i>
                              </div>
                                 <div className={`${style.iconDiv} d-flex justify-content-center align-items-center `}>
-                                <i class="fa-brands fa-whatsapp"></i>
+                                <i className="fa-brands fa-whatsapp"></i>
                              </div>
                                 <div className={`${style.iconDiv} d-flex justify-content-center align-items-center `}>
-                                <i class="fa-brands fa-linkedin-in"></i>
+                                <i className="fa-brands fa-linkedin-in"></i>
                              </div>
                                 <div className={`${style.iconDiv} d-flex justify-content-center align-items-center `}>
-                                <i class="fa-brands fa-twitter"></i>
+                                <i className="fa-brands fa-twitter"></i>
                              </div>
                         </div>  
                     </div>

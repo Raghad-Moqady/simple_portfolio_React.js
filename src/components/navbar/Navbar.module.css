@@ -1,9 +1,10 @@
 .navbar{
     background-color: rgba(44, 62, 80, 1);
-     position: fixed;
-     z-index: 4;
-     width: 100%;
 }
 ul{
     list-style: none;
+}
+.navLinks{
+    text-decoration: none;
+    color: white;
 }
